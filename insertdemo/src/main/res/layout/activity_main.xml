@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/calllog_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numeric="integer"
+        android:hint="插入通话记录条数"/>
+    <Button
+        android:id="@+id/insert_calllog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="insert"
+        android:text="插入通话记录"/>
+    <EditText
+        android:id="@+id/contacts_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numeric="integer"
+        android:hint="插入联系人条数"/>
+    <Button
+        android:id="@+id/insert_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="insert"
+        android:text="插入联系人"/>
+    <EditText
+        android:id="@+id/mms_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numeric="integer"
+        android:hint="插入短信条数"/>
+    <Button
+        android:id="@+id/insert_mms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="insert"
+        android:text="插入短信"/>
+    <EditText
+        android:id="@+id/cmms_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numeric="integer"
+        android:hint="插入彩信条数"/>
+    <Button
+        android:id="@+id/insert_cmms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="insert"
+        android:text="插入彩信"/>
+
+
+</LinearLayout>
